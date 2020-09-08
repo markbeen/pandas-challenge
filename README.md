@@ -21,18 +21,15 @@
     	<ol type="a">
             <li>Use inplace=True to write over the dataframe that was passed in.</li>
             <li>Use append=True to keep old index</li>
-    	</ol><li> pd.cut was used to bin the data. I passed in my own bins. From what I understand, pd.qcut can be used to also bin the data, but it does so calculating the size of each bin so that each bin has roughly the same number of data points. </li>
-
- 
+    	</ol><li> pd.cut was used to bin the data. I passed in my own bins. From what I understand, pd.qcut can be used to also bin the data, but it does so calculating the size of each bin so that each bin has roughly the same number of data points. </li></ol>
 
 
 
+Finally, three observable trends in the data include:
 
-
-​      
-
-
-
-
-​    
+<ol>
+    <li>Heroes of Pymoli is overwhelming popular with players between the ages of 20 and 24.</li>
+    <li>Heroes of Pymoli is overwhelming popular with male players. 84% of all players are male, followed by females (14%) and other/non-disclosed (1.91%)</li>
+    <li>While collectively, males outspend females/others, the latter groups are willing to spend more per purchase. This statement is based on gender differences beteween the Average Total Price and the Average PUrchase Price. If true, then the game maker should determine how to better tap into the female/other market.  </li>
 </ol>
+
